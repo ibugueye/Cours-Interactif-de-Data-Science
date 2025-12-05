@@ -32,7 +32,7 @@ st.markdown("""
         border: 1px solid rgba(255, 255, 255, 0.2);
     }
     h1, h2, h3 {
-        color: white;
+        color: black;
     }
     .stTabs [data-baseweb="tab-list"] {
         gap: 8px;
@@ -40,7 +40,7 @@ st.markdown("""
     .stTabs [data-baseweb="tab"] {
         background-color: rgba(255, 255, 255, 0.15);
         border-radius: 8px;
-        color: white !important;
+        color: black !important;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
     }
     .stTabs [data-baseweb="tab"]:hover {
@@ -48,13 +48,13 @@ st.markdown("""
     }
     .stTabs [aria-selected="true"] {
         background-color: #667eea !important;
-        color: white !important;
+        color: black !important;
     }
     .stTabs [data-baseweb="tab"] button {
-        color: white !important;
+        color: black !important;
     }
     .stTabs [data-baseweb="tab"] button p {
-        color: white !important;
+        color: black !important;
     }
     .pipeline-step {
         background: rgba(255, 255, 255, 0.1);
@@ -68,14 +68,14 @@ st.markdown("""
         border: 2px solid #ef4444;
         padding: 15px;
         border-radius: 8px;
-        color: white;
+        color: black;
     }
     .success-box {
         background: rgba(16, 185, 129, 0.2);
         border: 2px solid #10b981;
         padding: 15px;
         border-radius: 8px;
-        color: white;
+        color: black;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -992,9 +992,11 @@ with tab8:
 
 st.markdown("---")
 st.markdown("""
-<div style='text-align: center; color: rgba(255,255,255,0.6);'>
+<div style='text-align: center; color: rgba(ffff,ffff,ffff,0.6);'>
     <p>💼 Système de Contrôle de Gestion Intégré | Pipeline Complet</p>
     <p>🧠 Machine Learning | 📊 Analytics | 💡 Recommandations IA | 🔄 Temps Réel</p>
+    <p> Conception  Amiharbi Eyeug contrôle de gestion et data science </p>
     <p style='font-size: 12px; margin-top: 10px;'>v2.0 - Développé avec Streamlit & Python | © 2024</p>
+    
 </div>
 """, unsafe_allow_html=True)
