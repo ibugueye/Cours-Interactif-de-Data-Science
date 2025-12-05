@@ -788,9 +788,5 @@ def load_data_from_mysql():
         database="finance_db"
     )
     
-    df = pd.read_sql("SELECT * FROM finances", conn)
-    conn.close()
-    
-    return df
-
+ 
 
